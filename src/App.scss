@@ -21,6 +21,10 @@
   align-items: center;
   height: 10vh;
   width: 100%;
+
+  @include mobile {
+    font-size: 22px;
+  }
 }
 
 .body {
